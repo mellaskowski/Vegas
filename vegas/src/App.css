@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  font: monospace;
+  --peach-color: peachpuff;
+}
+
+:root {
+ --primary-color: #0d0b52;
+ --secondary-color: #3458b9;
+ --font-color: #424242;
+ --bg-color: #ffffff;
+ --heading-color: #292922;
+ --white-color: #ffffff;
+}
+
+.circle-box{
+  background-color: #4D77FF;
+  border-color: #B983FF;
+  border: thick;
+  animation-fill-mode: backwards;
+}
+
+.diamond {
+  background-color: ;
 }
 
 .App-logos {
@@ -18,17 +40,23 @@
   min-height: 25vh;
   display: flex;
   text-align: left;
-  flex-direction: column;
-  align-items: left;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: peachpuff;
   padding-left: 15px;
+
+  .grid-words {
+    text-decoration-color: peachpuff;
+    font-size: 40px;
+    width: 50px;
+    height: 30px;
+    padding-top: 10px;
+  }
 }
 
 .App-links {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
